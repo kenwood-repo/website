@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+  crossorigin="anonymous"/>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <title>CASDO</title>
+</head>
+<body>
+  <div id="main-nav">
+
+    <img src="./img/logo.png" alt="NewsGrid" class="logo">
+    <!-- <div class="container"> -->
+        <div class="topnav" id="myTopnav">
+            <div class="social">
+                <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-1x"></i></a>
+                <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-1x"></i></a>
+                <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram fa-1x"></i></a>
+                <a href="http://youtube.com" target="_blank"><i class="fab fa-youtube fa-1x"></i></a>
+              </div>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="gallery.html">Gallery</a>
+            <div class="dropdown">
+              <button class="dropbtn">Projects 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="farms.html">Farms</a>
+                <a href="well.html">Wells</a>
+                <a href="residential.html">Residential</a>
+                <a href="orphans.html">Ophans</a>
+                <a href="mosques.html">Mosques</a>
+                <a href="dispensaries.html">Clinics</a>
+                <a href="complexes.html">Complexes</a>
+                <a href="clothes.html">Eid Clothes</a>
+                <a href="sacrificial.html">Salah</a>
+                <a href="education.html">Quranic Center</a>
+                <a href="sacrificial.html">Sacrificial</a>
+              </div>
+            </div> 
+            <div class="dropdown">
+              <button class="dropbtn">Education 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="accra.html">Accra</a>
+                <a href="kumasi.html">Kumasi</a>
+                <a href="north.html">northern-Region</a>
+              </div>
+            </div> 
+            <a href="events.html">Events</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+    </div>
+</div>
+  
+  <!-- <div style="padding-left:16px">
+    <h2>Responsive Topnav with Dropdown</h2>
+    <p>Resize the browser window to see how it works.</p>
+    <p>Hover over the dropdown button to open the dropdown menu.</p>
+  </div> -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>   
+<section>
+  <div class="container001">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Get in-touch with us, or leave us a message:</p>
+    </div>
+    <div class="row">
+      <div class="column001">
+        <img src="./img/logo contact us.jpg" style="width:100%">
+      </div>
+      <div class="column001">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Footer -->
+ <footer id="main-footer" class="py-2">
+    <div class="container footer-container">
+      <div>
+        <img src="./img/img/img/logo.jpg" alt="NewsGrid">
+        <p>Care and social Development. Org </p>
+        <p>Ghana Office - Accra, Madina </p>
+        <p>P.O Box MD </p>
+        <p>Contact No. (+233)244 888 9876</p>      </div>
+      <div>
+        <h3>Email Newsletter</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <input type="submit" value="Subscribe" class="btn btn-primary">
+        </form>
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class="list">
+          <li><a href="#">Help & Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Get to konw us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nesciunt!</p>
+        <a href="#" class="btn btn-secondary">Now</a>
+      </div>
+      <div>
+        <p>
+          Copyright &copy; 2021, All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+ 
+</body>
+</html>
